@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Google Maps API Key (replace with your actual key)
-gmaps = googlemaps.Client(key='YOUR_GOOGLE_MAPS_API_KEY')
+gmaps = googlemaps.Client(key='AIzaSyBRm2TmOGjRE5vrpLF9oY5LtPYhruRxUk0')
 
 # OpenAI API Key (replace with your actual key)
 openai.api_key = 'YOUR_OPENAI_API_KEY'
