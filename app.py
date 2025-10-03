@@ -9,7 +9,7 @@ app = Flask(__name__)
 gmaps = googlemaps.Client(key='AIzaSyBRm2TmOGjRE5vrpLF9oY5LtPYhruRxUk0')
 
 # OpenAI API Key (replace with your actual key)
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+openai.api_key = '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'
 
 # Placeholder for pothole data (You can integrate with a real database or API)
 potholes_data = {
